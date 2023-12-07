@@ -28,3 +28,4 @@ E:\Desktop\work-space\WebApplication1\WebApplication1\obj\Debug\net8.0\refint\We
 E:\Desktop\work-space\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 E:\Desktop\work-space\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 E:\Desktop\work-space\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+E:\Desktop\work-space\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

@@ -1,17 +1,19 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-bddmc6yalx] {
+p[b-bddmc6yalx]{
+  color:gray;
+  margin-top: 9px;
+  margin-left: 100px;
+}
+a.navbarcolor[b-bddmc6yalx] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
- 
- 
 }
-
 a[b-bddmc6yalx] {
   color: #0077cc;
 }
+
 
 .btn-primary[b-bddmc6yalx] {
   color: #fff;
