@@ -23,18 +23,28 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult ModelCalc(){
-        Calculation model=new Calculation();
+    public IActionResult ModelCalc()
+    {
+        Calculation model = new Calculation();
 
         return View(model);
     }
-    public IActionResult ViewDataCalc(){
+    public IActionResult ViewDataCalc()
+    {
+        Calculation model = new Calculation();
+        ViewData["Numone"] = model.Numone;
+        ViewData["Numtwo"] = model.Numtwo;
         return View();
     }
-    public IActionResult ViewBagCalc(){
+    public IActionResult ViewBagCalc()
+    {
+        Calculation model = new Calculation();
+        ViewBag.Numone = model.Numone;
+        ViewBag.Numtwo = model.Numtwo;
         return View();
     }
-    public IActionResult InjectionCalc(){
+    public IActionResult InjectionCalc()
+    {
         return View();
     }
 

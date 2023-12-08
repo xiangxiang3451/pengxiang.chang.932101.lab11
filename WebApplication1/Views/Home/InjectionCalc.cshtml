@@ -1,1 +1,21 @@
-<h3>AccessServiceDirectly</h3>
+
+@using WebApplication1.Services
+
+@{
+    ViewData["Title"] = "Home Page";
+    WebApplication1.Services.Calculation calculation=new WebApplication1.Services.Calculation();
+    int Numone=calculation.getNumber();
+    int Numtwo = calculation.getNumber();
+}
+
+<h2>AccessServiceDirectly</h2>
+<h5>Rand value first: @Numone</h5>
+<h5>Rand value second: @Numtwo</h5>
+<h5>Add:</h5>
+<p>@Numone + @Numtwo = @(calculation.add(Numone,Numtwo))</p>
+<h5>Sub:</h5>
+<p>@Numone - @Numtwo=@(calculation.sub(Numone,Numtwo))</p>
+<h5>Mult</h5>
+<p>@Numone * @Numtwo=@(calculation.mult(Numone,Numtwo))</p>
+<h5>Div</h5>
+<p>@Numone/@Numtwo=@(calculation.div(Numone,Numtwo))</p>

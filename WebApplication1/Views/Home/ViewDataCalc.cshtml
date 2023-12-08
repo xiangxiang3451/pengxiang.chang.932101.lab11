@@ -1,1 +1,18 @@
-<h3>PassUsingViewData</h3>
+@{
+    ViewData["Title"] = "Home Page";
+    int Numone=(int)ViewData["Numone"];
+    
+    int Numtwo=(int)ViewData["Numtwo"];
+}
+
+<h2>PassUsingViewData</h2>
+<h5>Rand value first: @Numone</h5>
+<h5>Rand value second: @Numtwo</h5>
+<h5>Add:</h5>
+<p>@Numone + @Numtwo = @(Numone + Numtwo)</p>
+<h5>Sub:</h5>
+<p>@Numone - @Numtwo=@(Numone - Numtwo)</p>
+<h5>Mult</h5>
+<p>@Numone * @Numtwo=@(Numone * Numtwo)</p>
+<h5>Div</h5>
+<p>@Numone/@Numtwo=@(Numtwo != 0 ? Numone / Numtwo : "error")</p>
