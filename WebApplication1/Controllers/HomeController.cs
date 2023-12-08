@@ -23,6 +23,19 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult ModelCalc(){
+        return View();
+    }
+    public IActionResult ViewDataCalc(){
+        return View();
+    }
+    public IActionResult ViewBagCalc(){
+        return View();
+    }
+    public IActionResult InjectionCalc(){
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

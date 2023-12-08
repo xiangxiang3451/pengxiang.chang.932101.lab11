@@ -22,12 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Home/InjectionCalc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmplY3Rpb25DYWxjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Home/ModelCalc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb2RlbENhbGMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Home/ViewBagCalc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3QmFnQ2FsYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Home/ViewDataCalc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3RGF0YUNhbGMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Desktop/work-space/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
