@@ -25,7 +25,7 @@ namespace WebApplication1.Services{
         public string div(int a,int b){
 
             if(b==0)
-            return "error";
+            return "something was wrong";
             else
             return(a/b).ToString();
 
