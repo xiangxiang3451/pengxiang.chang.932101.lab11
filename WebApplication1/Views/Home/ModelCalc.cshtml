@@ -1,1 +1,13 @@
-<h3>PassUsingModel</h3>
+
+@model CalculationModel
+@{
+    ViewData["Title"] = "Home Page";
+    var Numone = @Model.Numone;
+    var Numtwo = @Model.Numtwo;
+}
+
+<h2>PassUsingModel</h2>
+<p class="bold">First number: @Numone</p>
+<p class="bold">Second number: @Numtwo</p>
+<p class="bold">Add:</p>
+<p>@Numone + @Numtwo = @(Numone + Numtwo)</p>

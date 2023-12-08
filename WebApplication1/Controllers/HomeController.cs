@@ -24,7 +24,9 @@ public class HomeController : Controller
     }
 
     public IActionResult ModelCalc(){
-        return View();
+        Calculation model=new Calculation();
+
+        return View(model);
     }
     public IActionResult ViewDataCalc(){
         return View();
