@@ -1,5 +1,5 @@
 
-@model CalculationModel
+
 @{
     ViewData["Title"] = "Home Page";
     var Numone = @Model.Numone;
@@ -7,7 +7,9 @@
 }
 
 <h2>PassUsingModel</h2>
-<p class="bold">First number: @Numone</p>
-<p class="bold">Second number: @Numtwo</p>
-<p class="bold">Add:</p>
+<h5>Rand value first: @Numone</h5>
+<h5>Rand value second: @Numtwo</h5>
+<h5>Add:</h5>
 <p>@Numone + @Numtwo = @(Numone + Numtwo)</p>
+<h5>Sub:</h5>
+
