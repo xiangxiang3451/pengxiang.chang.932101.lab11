@@ -1,8 +1,11 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+.container-fluid[b-bddmc6yalx]{
+  padding-left: 85px;
+}
 p[b-bddmc6yalx]{
   color:gray;
-  margin-top: 9px;
+  margin-top: 15px;
   margin-left: 100px;
 }
 a.navbarcolor[b-bddmc6yalx] {
